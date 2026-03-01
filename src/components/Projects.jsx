@@ -88,6 +88,28 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "HireMePls.Ai",
+      description: "LeetCode won’t save you when they ask why you made that architectural decision in your last job. Interview.AI turns your resume into a full mock interview — tailored technical questions from your actual experience (powered by ElevenLabs voice agents), real-time grading across five dimensions, adaptive follow-ups, and a live coding sandbox (powered by Modal). All in one shot.",
+      achievement: "Transforms resume data into adaptive mock interviews with voice-driven Q&A, live coding, and multi-dimensional real-time evaluation",
+      date: "2026",
+      tags: ["Interview AI", "ElevenLabs", "Modal", "Voice Agents", "Live Coding"],
+      category: ["AI", "Web Development"],
+      github: "https://github.com/NidhiBaheti/HireMePls.ai",
+      demo: "https://www.youtube.com/watch?v=C_gfCE25pdo",
+      image: null
+    },
+    {
+      title: "CAT Inspect",
+      description: "Every minute equipment sits broken, inspectors are still spending 45 minutes per job writing notes and filing reports manually. CAT AI Inspector cuts that to 5 seconds — snap a photo, speak a voice note, get a severity-ranked report instantly. It works hands-free in English and Spanish, and built with real-world industrial deployment in mind.",
+      achievement: "Reduced inspection reporting time from 45 minutes to about 5 seconds with multilingual, hands-free AI-assisted defect reporting",
+      date: "2026",
+      tags: ["Computer Vision", "Voice Notes", "Industrial AI", "Bilingual", "Inspection Automation"],
+      category: ["AI", "Computer Vision"],
+      github: "https://github.com/JyotBuch/caterpillar",
+      demo: null,
+      image: null
+    },
+    {
       title: "MarketMind",
       description: "LLM-driven brand and consumer agents for SMS and Instagram campaign simulation, enabling dynamic scenario testing and influencer partnership integration for D2C brands.",
       achievement: "Tested 15+ variations and automated campaign launches; system reduced failed campaign rates by 5% and surfaced high-value audience segments from 500K+ interactions",
